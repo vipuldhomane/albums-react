@@ -1,0 +1,13 @@
+.heading {
+  color: rgb(27, 96, 0);
+}
+.albumslistContainer {
+  /* border: 1px solid rgba(225, 0, 255, 0.61); */
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
