@@ -64,17 +64,18 @@ function App() {
     console.log(json);
 
     // setNewAlbum(json);
+    // console.log(newAlbum);
 
     // making changes in local state
-    const newAlbum = {
-      userId: userId,
-      title: title,
-      id: 1,
-    };
+    // const newAlbum = {
+    //   userId: userId,
+    //   title: title,
+    //   id: 1,
+    // };
 
-    console.log(newAlbum);
+    // console.log(newAlbum);
 
-    setAlbums([newAlbum, ...albums]);
+    setAlbums([json, ...albums]);
     alert("New Album added successfully");
     console.log(albums);
   };
